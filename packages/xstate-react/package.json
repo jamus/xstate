@@ -1,6 +1,6 @@
 {
   "name": "@xstate/react",
-  "version": "2.0.1",
+  "version": "3.0.0-next.0",
   "description": "XState tools for React",
   "keywords": [
     "state",
@@ -34,7 +34,7 @@
   "peerDependencies": {
     "@xstate/fsm": "^1.6.5",
     "react": "^16.8.0 || ^17.0.0",
-    "xstate": "^4.30.5"
+    "xstate": "^5.0.0-next.0"
   },
   "peerDependenciesMeta": {
     "@xstate/fsm": {
