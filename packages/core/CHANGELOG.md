@@ -1,5 +1,13 @@
 # xstate
 
+## 4.30.7
+
+### Patch Changes
+
+- [#3166](https://github.com/statelyai/xstate/pull/3166) [`be4c5c74d`](https://github.com/statelyai/xstate/commit/be4c5c74d400a1ca58befd306029c3ce77793e3e) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue with `state.tags` not having correct values when resolving micro transitions (taken in response to raised events). This was creating issues when checking tags in guards.
+
+* [#3153](https://github.com/statelyai/xstate/pull/3153) [`b36ef9dda`](https://github.com/statelyai/xstate/commit/b36ef9dda560fca4c00428f48742fd9d2e325324) Thanks [@Andarist](https://github.com/Andarist)! - Made type displays (like in the IDE tooltips etc) more readable by using a type interface for the internal `ResolveTypegenMeta` type.
+
 ## 4.30.6
 
 ### Patch Changes
